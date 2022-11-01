@@ -31,6 +31,16 @@ namespace git37
             }
             return res;
         }
+        public static int Kyb(int x)
+        {
+            int res = 1;
+            for (int i = 0; i < 2; i++)
+            {
+                res *= x;
+            }
+            return res;
+        }
+
     }
 }
 
