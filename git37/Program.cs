@@ -14,11 +14,11 @@ namespace git37
             int x = int.Parse(Console.ReadLine());
             Console.Write("Введите степень: #");
             int y = int.Parse(Console.ReadLine());
-            stepen(x, y);
-            Console.WriteLine("Результат : " + stepen(x, y));
+            Stepen(x, y);
+            Console.WriteLine("Результат : " + Stepen(x, y));
 
         }
-        public static int stepen(int x, int y)
+        public static int Stepen(int x, int y)
         {
             int res = 1;
             for (int i = 0; i < y; i++)
