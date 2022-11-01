@@ -17,6 +17,10 @@ namespace git37
             Stepen(x, y);
             Console.WriteLine("Результат : " + Stepen(x, y));
 
+            int i = 0;
+            int j = 0; 
+
+
         }
         public static int Stepen(int x, int y)
         {
